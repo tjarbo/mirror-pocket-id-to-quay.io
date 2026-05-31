@@ -6,3 +6,15 @@ images:
     destination: quay.io/tjarbo/pocket-id
     tags:
       - v2
+  - source: lscr.io/linuxserver/zotero
+    destination: quay.io/tjarbo/zotero
+    tags:
+      - latest
+  - source: lscr.io/linuxserver/code-server
+    destination: quay.io/tjarbo/code-server
+    tags:
+      - latest
+  - source: lscr.io/linuxserver/chrome
+    destination: quay.io/tjarbo/chrome
+    tags:
+      - latest
