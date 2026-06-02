@@ -55,7 +55,7 @@ jobs:
 
       - name: Create pull request
         if: inputs.open_pr == true
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           commit-message: "mirror: add ${{ inputs.source }} to config"
           title: "mirror: add ${{ inputs.source }}"
